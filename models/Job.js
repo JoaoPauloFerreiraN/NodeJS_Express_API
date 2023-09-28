@@ -8,10 +8,10 @@ const Job = db.define('job',{
     description: {
         type: Sequelize.STRING,
     },
-    salary: {
+    company: {
         type: Sequelize.STRING,
     },
-    company: {
+    salary: {
         type: Sequelize.STRING,
     },
     email: {
